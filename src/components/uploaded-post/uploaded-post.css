@@ -1,0 +1,44 @@
+.uploaded-post{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+.uploaded-post-top{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+}
+.uploaded-post-avatar{
+    margin-right: 10px;
+}
+.uploaded-post-topInfo >p{
+    font-size: small;
+    color: gray;
+}
+.uploaded-post-message > p{
+    margin-left: 10px;
+    font-size: large;
+}
+.uploaded-post-image > img{
+    width: 100%;    
+}
+.uploaded-post-options{
+    padding-top: 10px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+    padding: 15px;
+}
+.uploaded-post-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex: 1;
+}
